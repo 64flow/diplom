@@ -10,7 +10,7 @@
     $host = 'aws-0-eu-central-1.pooler.supabase.com';
     $dbname = 'postgres';
     $user = 'postgres.dstcxgfoqwifnystedpz';
-    $password = '6412diploM!';
+    $password = '###';
     $port = 5432;
     $db = new PDO("pgsql:host=$host;port=$port;dbname=$dbname;options='--client_encoding=UTF8'", $user, $password);
 
