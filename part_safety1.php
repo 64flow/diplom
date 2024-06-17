@@ -12,7 +12,7 @@ session_start();
 $host = 'aws-0-eu-central-1.pooler.supabase.com';
 $dbname = 'postgres';
 $user = 'postgres.dstcxgfoqwifnystedpz';
-$password = '6412diploM!';
+$password = '###';
 $port = 5432;
 $part_id = $_POST['idff'];
 $part = $_POST['part'];
