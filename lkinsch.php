@@ -31,7 +31,7 @@ session_start();
 $host = 'aws-0-eu-central-1.pooler.supabase.com';
 $dbname = 'postgres';
 $user = 'postgres.dstcxgfoqwifnystedpz';
-$password = '6412diploM!';
+$password = '###';
 $port = 5432;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!isset($_POST['birthdate']) || empty($_POST['birthdate'])) {
