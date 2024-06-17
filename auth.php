@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")  {
     $host = 'aws-0-eu-central-1.pooler.supabase.com';
     $dbname = 'postgres';
     $user = 'postgres.dstcxgfoqwifnystedpz';
-    $passwor = '6412diploM!';
+    $passwor = '###';
     $port = 5432;
     try {
         $db = new PDO("pgsql:host=$host;port=$port;dbname=$dbname;options='--client_encoding=UTF8'", $user, $passwor);
