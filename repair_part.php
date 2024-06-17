@@ -18,7 +18,7 @@ session_start();
 $host = 'aws-0-eu-central-1.pooler.supabase.com';
 $dbname = 'postgres';
 $user = 'postgres.dstcxgfoqwifnystedpz';
-$password = '6412diploM!';
+$password = '###';
 $port = 5432;
 $part_id = $_GET['id'];
 $plane_id = $_GET['plane_id'];
