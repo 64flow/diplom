@@ -9,7 +9,7 @@ require_once "lib/tfpdf/tfpdf.php";
 $host = 'aws-0-eu-central-1.pooler.supabase.com';
 $dbname = 'postgres';
 $user = 'postgres.dstcxgfoqwifnystedpz';
-$password = '6412diploM!';
+$password = '###';
 $port = 5432;
 $condition =$_POST['con_filter'];
 $plane_filter =$_POST['plane_filter'];
